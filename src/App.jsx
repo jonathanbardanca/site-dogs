@@ -12,7 +12,7 @@ function App() {
       <Footer />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Login" element={<div>Login Page</div>} />
+        <Route path="/login/*" element={<Login />} />
       </Routes>
       <Header />
     </BrowserRouter>
